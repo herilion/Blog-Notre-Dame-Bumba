@@ -15,5 +15,10 @@
     --second-color:#fd8f44 ;
     --text-color:#172317 ;
     --bg-color:#fff ;
-
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
 }
