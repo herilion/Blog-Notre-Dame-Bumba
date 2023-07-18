@@ -8,3 +8,12 @@
     scroll-padding-top: 2rem;
     box-sizing: border-box;
 }
+
+/* variables */
+:root{
+    --container-color: ;
+    --second-color: ;
+    --text-color: ;
+    --bg-color: ;
+
+}
