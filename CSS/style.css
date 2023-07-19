@@ -54,7 +54,7 @@ header{
 .logo{
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--text-color);
+    color: var(--bg-color);
 }
 .logo span{
     color: var(--second-color);
@@ -70,4 +70,13 @@ header{
 .login:hover{
     background: hsl(24,98%,58%);
     transition: 0.3s;
+}
+/* home */
+.home{
+    width: 100%;
+    min-height: 440px;
+    background: var(--container-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
