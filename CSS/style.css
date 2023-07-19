@@ -87,3 +87,7 @@ header{
 .home-title{
     font-size:3.5rem;
 }
+.home-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+}
