@@ -84,3 +84,6 @@ header{
     color: var(--bg-color);
     text-align: center;
 }
+.home-title{
+    font-size:3.5rem;
+}
