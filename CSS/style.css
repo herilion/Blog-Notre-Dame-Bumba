@@ -45,3 +45,9 @@ header{
     width: 100%;
     z-index: 200;
 }
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+}
