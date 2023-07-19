@@ -56,3 +56,14 @@ header{
     font-weight: 600;
     color: var(--text-color);
 }
+.logo span{
+    color: var(--second-color);
+}
+.login{
+    padding:8px 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 5px;
+    background: var(--second-color);
+    color: var(--bg-color);
+}
