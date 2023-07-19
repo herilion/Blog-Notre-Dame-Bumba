@@ -80,3 +80,7 @@ header{
     justify-content: center;
     align-items: center;
 }
+.home-text{
+    color: var(--bg-color);
+    text-align: center;
+}
