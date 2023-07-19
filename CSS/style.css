@@ -67,3 +67,7 @@ header{
     background: var(--second-color);
     color: var(--bg-color);
 }
+.login:hover{
+    background: hsl(24,98%,58%);
+    transition: 0.3s;
+}
