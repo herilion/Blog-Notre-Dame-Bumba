@@ -32,3 +32,11 @@ img{
 section{
     padding: 3rem 0 2rem;
 }
+/* header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+}
