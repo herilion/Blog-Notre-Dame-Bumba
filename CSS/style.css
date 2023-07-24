@@ -135,3 +135,12 @@ header{
     text-transform: uppercase;
     color: var(--second-color);
 }
+.post-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-color);
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
