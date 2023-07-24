@@ -104,3 +104,9 @@ header{
    font-weight: 500;
    cursor: pointer; 
 }
+.active-filter{
+    background: var(--second-color);
+    color: var(--bg-color);
+    padding: 4px 10px;
+    border-radius: 4px;
+}
