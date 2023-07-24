@@ -129,3 +129,9 @@ header{
     object-position: center;
     border-radius: 0.5rem;
 }
+.category{
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--second-color);
+}
