@@ -118,9 +118,9 @@ header{
 }
 .post-box{
     background: var(--bg-color);
-    box-shadow: 0 4px 14px hsl(355deg 25% / 10%);
+    box-shadow: 0 4px 14px hsl(0, 5%, 57%);
     padding: 15px;
-    border-radius: 0.5rem;
+    border-radius: 0.7rem;
 }
 .post-img{
     width: 100%;
