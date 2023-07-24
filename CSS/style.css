@@ -110,3 +110,9 @@ header{
     padding: 4px 10px;
     border-radius: 4px;
 }
+/* Post */
+.post{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+    gap: 1.5rem;
+}
