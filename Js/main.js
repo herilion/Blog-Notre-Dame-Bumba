@@ -13,6 +13,6 @@ $(document).ready(function() {
                 .not('.'+ value)
                 .hide('1000')
         }
-    });
+    })
     
 })
