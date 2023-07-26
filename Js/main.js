@@ -13,4 +13,8 @@ $(document).ready(function() {
                 $('.post-box.' + value).show('1000');
             }
         });
+        //  active btn
+        $('.filter-item').click(function(){
+            $(this).addClass('active-filter').siblings().removeClass('active-filter');
+        })
     });
