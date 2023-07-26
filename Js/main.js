@@ -16,5 +16,5 @@ $(document).ready(function() {
         //  active btn
         $('.filter-item').click(function(){
             $(this).addClass('active-filter').siblings().removeClass('active-filter');
-        })
+        });
     });
