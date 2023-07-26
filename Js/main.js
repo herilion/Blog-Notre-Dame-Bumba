@@ -18,3 +18,5 @@ $(document).ready(function() {
             $(this).addClass('active-filter').siblings().removeClass('active-filter');
         });
     });
+    // Header Background change on scroll
+   
