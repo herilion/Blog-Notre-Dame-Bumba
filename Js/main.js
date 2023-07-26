@@ -1,19 +1,16 @@
-// Filter Js
+// // Filter Js
 $(document).ready(function() {
-    $('.filter-item').click(function(){
-        const value=$(this).attr('data-filter')
-        if(value=='all'){
-            $('.post-box')
-            .show('1000');
-        }
-        else{
-            $('.post-box')
-                .not('.'+ value)
-                .hide('1000');
-            $('.post-box')
-                .not('.'+ value)
-                .hide('1000');
-        }
+        $('.filter-item').click(function(){
+            const value = $(this).attr('data-filter');
+
+            if (value === 'all') {
+                // Affiche tous les éléments ayant la classe '.post-box'
+                $('.post-box').show('1000');
+            } else {
+                // Masque tous les éléments ayant la classe '.post-box'
+                // qui n'ont pas la classe correspondant à 'value'
+                $('.post-box').hide('1000');
+                $('.post-box.' + value).show('1000');
+            }
+        });
     });
-    
-})
