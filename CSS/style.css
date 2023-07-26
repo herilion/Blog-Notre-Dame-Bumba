@@ -45,6 +45,14 @@ header{
     width: 100%;
     z-index: 200;
 }
+header.shadow{
+    background: var(--bg-color);
+    box-shadow: 0 1px 4px hsl(0 4% 14% 10%);
+    transition: 0.4s;
+}
+header.shadow .logo{
+ color: var(--text-color);   
+}
 .nav{
     display: flex;
     align-items: center;
