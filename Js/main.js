@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('.filter-item').click(function(){
         const value=$(this).attr('data-filter')
         if(value=='all'){
-            $('.post-box').show('1000')
+            $('.post-box').show('1000');
         }
         else{
             $('.post-box')
@@ -13,6 +13,6 @@ $(document).ready(function() {
                 .not('.'+ value)
                 .hide('1000')
         }
-    })
+    });
     
 })
