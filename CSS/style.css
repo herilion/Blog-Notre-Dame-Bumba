@@ -214,3 +214,8 @@ gap: 10px;
     height: 500px;
     background: var(--container-color);
 }
+.post-container{
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+}
