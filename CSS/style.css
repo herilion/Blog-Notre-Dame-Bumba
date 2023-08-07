@@ -291,4 +291,10 @@ gap: 10px;
     section{
         padding: 2rem 0;
     }
+    .header-content{
+        margin-top: 3rem !important;
+    }
+    .home{
+        min-height: 380px;
+    }
 }
