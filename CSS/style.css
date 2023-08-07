@@ -297,4 +297,10 @@ gap: 10px;
     .home{
         min-height: 380px;
     }
+    .home-title{
+        font-size: 3rem;
+    }
+    .header-title{
+        font-size: 2rem;
+    }
 }
