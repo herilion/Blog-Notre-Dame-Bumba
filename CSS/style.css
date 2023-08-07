@@ -261,3 +261,17 @@ gap: 10px;
     align-items: center;
     row-gap: 1rem;
 }
+.share-title{
+    font-size: 1.1rem;
+}
+/* responsive */
+@media (max-width:1060px){
+    .container{
+        max-width: 1068px;
+        margin: auto;
+        width: 100%;
+        margin: 0 auto;
+        width: 95%;
+    }
+    
+}
