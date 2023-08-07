@@ -270,5 +270,8 @@ gap: 10px;
         margin: 0 auto;
         width: 95%;
     }
+    .home-text{
+        width: 100%;
+    }
     
 }
