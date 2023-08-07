@@ -267,9 +267,6 @@ gap: 10px;
 /* responsive */
 @media (max-width:1060px){
     .container{
-        max-width: 1068px;
-        margin: auto;
-        width: 100%;
         margin: 0 auto;
         width: 95%;
     }
