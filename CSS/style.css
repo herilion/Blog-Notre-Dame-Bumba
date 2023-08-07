@@ -284,3 +284,17 @@ gap: 10px;
     }
     
 }
+@media (max-width:768px) {
+    .nav{
+        padding: 10px 0;
+    }
+    section{
+        padding: 2rem 0;
+    }
+    .header-content{
+        margin-top: 3rem !important;
+    }
+    .home{
+        min-height: 380px;
+    }
+}
