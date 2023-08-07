@@ -288,4 +288,7 @@ gap: 10px;
     .nav{
         padding: 10px 0;
     }
+    section{
+        padding: 2rem 0;
+    }
 }
