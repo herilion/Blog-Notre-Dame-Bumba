@@ -242,3 +242,15 @@ gap: 10px;
     object-fit: cover;
     object-position: center;
 }
+.post-content{
+    margin-top: 10rem !important;
+}
+.sub-heading{
+    font-size: 1.2rem;
+}
+.post-text{
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin: 1rem 0;
+    text-align: justify;
+}
