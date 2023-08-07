@@ -272,6 +272,11 @@ gap: 10px;
     }
     .home-text{
         width: 100%;
+    }  
+}
+@media (max-width:800px) {
+    .nav{
+        padding: 14px 0;
     }
     
 }
