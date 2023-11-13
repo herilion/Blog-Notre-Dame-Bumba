@@ -13,7 +13,7 @@ $(document).ready(function() {
                 $('.post-box.' + value).show('1000');
             }
         });
-        //  active btn
+        //  active btn cool
         $('.filter-item').click(function(){
             $(this).addClass('active-filter').siblings().removeClass('active-filter');
         });
